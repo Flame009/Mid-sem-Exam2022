@@ -21,11 +21,11 @@ border:1px solid none;}
 .mainmenu a
 .mainmenu a:hover
 .mainmenu img{
-position: fixed;
+position: center;
 z-index: -1;
-top:100px; left:100px; width:100%; height: 100vh;
+top:100px; left:100px; width:100%; height: 100%;
 opacity: 0.9;
-/*object-fit:cover;*/
+
 transition: all ease 0.5s;
 }
 .wd{
@@ -54,7 +54,7 @@ transition: all ease 0.5s;
 .opt form , input[type="button"]{
    background-color: black;
    color:white;
- /* padding:10px;*/
+ 
    margin:-14px auto;
    padding-left: 200px;
    padding-right: 250px;
